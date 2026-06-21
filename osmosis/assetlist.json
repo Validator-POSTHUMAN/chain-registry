@@ -6754,63 +6754,6 @@
       ]
     },
     {
-      "description": "The native token cw20 for PHMN on Juno Chain",
-      "extended_description": "$PHMN is the governance token of a distributed validator. Similar to PoS chains, each holder possesses voting rights proportionate to the number of locked tokens. PHMN holders can govern the POSTHUMAN validator via DAODAO. For instance, decisions such as diversifying the treasury, updating the validator's commission rate, or exiting the network are determined by the PHMN community.",
-      "denom_units": [
-        {
-          "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
-          "exponent": 0,
-          "aliases": [
-            "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
-          ]
-        },
-        {
-          "denom": "phmn",
-          "exponent": 6
-        }
-      ],
-      "type_asset": "ics20",
-      "base": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
-      "name": "POSTHUMAN",
-      "display": "phmn",
-      "symbol": "PHMN",
-      "traces": [
-        {
-          "type": "ibc-cw20",
-          "counterparty": {
-            "chain_name": "juno",
-            "base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
-            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
-            "channel_id": "channel-47"
-          },
-          "chain": {
-            "port": "transfer",
-            "channel_id": "channel-169",
-            "path": "transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
-          }
-        }
-      ],
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg"
-      },
-      "images": [
-        {
-          "image_sync": {
-            "chain_name": "juno",
-            "base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
-          },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg"
-        }
-      ],
-      "coingecko_id": "posthuman",
-      "socials": {
-        "website": "https://posthuman.digital/",
-        "x": "https://x.com/POSTHUMAN_DVS"
-      }
-    },
-    {
       "description": "The native token cw20 for Amber on Secret Network",
       "denom_units": [
         {
